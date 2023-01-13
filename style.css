@@ -1,3 +1,18 @@
-* {
+h1 {
     color:purple;
+}
+.bad-people{
+    color:blue;
+}
+.people{
+    background-color: blueviolet;
+}
+#message{
+    color:red;
+    background-color:navy;
+    text-align: center;
+}
+img {
+    height: auto;
+    width: 50px;
 }
