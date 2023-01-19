@@ -1,5 +1,10 @@
+.parent {
+    display: flex;
+}
+.parent .child {
+    flex: 1;
+}
 h1 {
-    color:purple;
     border: 4px dashed yellowgreen;
     padding-left: 10px;
 }
