@@ -1,30 +1,40 @@
 .parent {
     display: flex;
-}
-.parent .child {
     flex: 1;
+    gap: 10px;
 }
-h1 {
-    border: 4px dashed yellowgreen;
-    padding-left: 10px;
-}
-.bad-people{
-    color:red;
-}
+
 .people{
     background-color: blueviolet;
 }
-#message{
+.child{
+    border: 4px solid yellowgreen;
+    padding-top: 3px;
+    width: 140px;
+    height: 30px;
     color:white;
     background-color:black;
-    text-align: left;
+    text-align: center;
+    
 }
 img {
-    height: auto;
-    width: 50px;
+    height: 20px;
+    width: 20px;
 }
 body {
-    background-image: url("./images/backg.jpg");
+    background-image: url("../images/backg.jpg");
     background-repeat: no-repeat;
     background-position: center;
+}
+a {
+    color: white;
+}
+.theodore-bio{
+    color: black;
+    border: 4px solid #87CEEB;
+    padding: 7px;
+}
+.theodore-photo{
+    height: 100px;
+    width: 1500px;
 }
